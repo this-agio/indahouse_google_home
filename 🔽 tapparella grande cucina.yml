@@ -1,0 +1,78 @@
+metadata:
+  name: Lower tapparella grande cucina roller shutters
+  description: Automation to lower tapparella grande roller shutter for room cucina
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa la tapparella grande della cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa la tapparella grande in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa la tapparella grande dell'cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa la tapparella grande del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa la tapparella grande in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella grande della cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella grande in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella grande dell'cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella grande del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella grande in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella grande cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù la tapparella grande della cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù la tapparella grande in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù la tapparella grande dell'cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù la tapparella grande del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù la tapparella grande in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella grande della cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella grande in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella grande dell'cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella grande del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella grande in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella grande cucina"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella grande raise - cucina
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella grande lower - cucina

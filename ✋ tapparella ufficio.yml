@@ -1,0 +1,78 @@
+metadata:
+  name: Stop tapparella ufficio roller shutters
+  description: Automation to stop tapparella roller shutter for room ufficio
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella ufficio"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella raise - ufficio
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella lower - ufficio

@@ -1,0 +1,78 @@
+metadata:
+  name: Stop cameretta roller shutters
+  description: Automation to stop roller shutter for room cameretta
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle della cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle dell'cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle della cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle dell'cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle della cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle dell'cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle della cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle dell'cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle cameretta"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella raise - cameretta
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella lower - cameretta

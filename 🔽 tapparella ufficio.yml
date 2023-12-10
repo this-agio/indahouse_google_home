@@ -1,0 +1,78 @@
+metadata:
+  name: Lower tapparella ufficio roller shutters
+  description: Automation to lower tapparella roller shutter for room ufficio
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa la tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa la tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa la tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparella ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù la tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù la tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù la tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparella ufficio"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella raise - ufficio
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella lower - ufficio

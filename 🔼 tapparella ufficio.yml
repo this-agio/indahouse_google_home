@@ -1,0 +1,78 @@
+metadata:
+  name: Raise tapparella ufficio roller shutters
+  description: Automation to raise tapparella roller shutter for room ufficio
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza la tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza la tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza la tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su la tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su la tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su la tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su la tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella della ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella dell'ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella in ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella ufficio"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella lower - ufficio
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella raise - ufficio

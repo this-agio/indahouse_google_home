@@ -1,0 +1,84 @@
+metadata:
+  name: Lower camera padronale roller shutters
+  description: Automation to lower roller shutter for room camera padronale
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle della camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle in camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dell'camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle del camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle in camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle della camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle in camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dell'camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle del camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle in camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle della camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle in camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dell'camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle del camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle in camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle della camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle in camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dell'camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle del camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle in camera padronale"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle camera padronale"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella grande raise - camera padronale
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella grande lower - camera padronale
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella piccola raise - camera padronale
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella piccola lower - camera padronale

@@ -1,0 +1,90 @@
+metadata:
+  name: Lower cucina, ufficio, cameretta, camera padronale, camera padronale roller shutters
+  description: Automation to lower roller shutters for google_home_automations.rooms cucina, ufficio, cameretta, camera padronale, camera padronale
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle casa"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle della casa"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle casa"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle della casa"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tutte le tapparelle"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tutte le tapparelle casa"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tutte le tapparelle della casa"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle casa"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle della casa"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle casa"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle della casa"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tutte le tapparelle"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tutte le tapparelle casa"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tutte le tapparelle della casa"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella grande raise - cucina
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella grande lower - cucina
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella raise - ufficio
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella lower - ufficio
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella raise - cameretta
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella lower - cameretta
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella grande raise - camera padronale
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella grande lower - camera padronale
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella piccola raise - camera padronale
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella piccola lower - camera padronale

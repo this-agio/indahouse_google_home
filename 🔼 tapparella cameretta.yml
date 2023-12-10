@@ -1,0 +1,78 @@
+metadata:
+  name: Raise tapparella cameretta roller shutters
+  description: Automation to raise tapparella roller shutter for room cameretta
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza la tapparella della cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza la tapparella in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza la tapparella dell'cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza la tapparella del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza la tapparella in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella della cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella dell'cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparella cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su la tapparella della cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su la tapparella in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su la tapparella dell'cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su la tapparella del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su la tapparella in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella della cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella dell'cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella in cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparella cameretta"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella lower - cameretta
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella raise - cameretta

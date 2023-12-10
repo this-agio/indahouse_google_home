@@ -1,0 +1,78 @@
+metadata:
+  name: Lower cucina roller shutters
+  description: Automation to lower roller shutter for room cucina
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle della cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dell'cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle della cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dell'cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle della cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dell'cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle della cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dell'cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle in cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle cucina"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella grande raise - cucina
+    - type: device.command.OnOff
+      on: true
+      devices: tapparella grande lower - cucina
