@@ -76,9 +76,19 @@ automations:
     - type: device.command.OnOff
       on: true
       devices: tapparella grande raise - camera padronale
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella grande raise - camera padronale
     - type: device.command.OnOff
       on: false
       devices: tapparella piccola lower - camera padronale
     - type: device.command.OnOff
       on: true
+      devices: tapparella piccola raise - camera padronale
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
       devices: tapparella piccola raise - camera padronale

@@ -64,11 +64,21 @@ automations:
     - type: device.command.OnOff
       on: true
       devices: tapparella grande raise - cucina
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella grande raise - cucina
     - type: device.command.OnOff
       on: false
       devices: tapparella lower - ufficio
     - type: device.command.OnOff
       on: true
+      devices: tapparella raise - ufficio
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
       devices: tapparella raise - ufficio
     - type: device.command.OnOff
       on: false
@@ -76,15 +86,30 @@ automations:
     - type: device.command.OnOff
       on: true
       devices: tapparella raise - cameretta
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella raise - cameretta
     - type: device.command.OnOff
       on: false
       devices: tapparella grande lower - camera padronale
     - type: device.command.OnOff
       on: true
       devices: tapparella grande raise - camera padronale
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
+      devices: tapparella grande raise - camera padronale
     - type: device.command.OnOff
       on: false
       devices: tapparella piccola lower - camera padronale
     - type: device.command.OnOff
       on: true
+      devices: tapparella piccola raise - camera padronale
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
       devices: tapparella piccola raise - camera padronale
