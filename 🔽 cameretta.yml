@@ -1,6 +1,6 @@
 metadata:
   name: Lower cameretta roller shutters
-  description: Automation to lower roller shutter for room cameretta
+  description: Automation to lower roller shutters for rooms cameretta
 automations:
   starters:
     - type: assistant.event.OkGoogle
@@ -17,9 +17,6 @@ automations:
       is: "abbassa le tapparelle del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa le tapparelle in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "abbassa tapparelle della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -30,9 +27,6 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "abbassa tapparelle del cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle in cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "abbassa tapparelle cameretta"
@@ -50,9 +44,6 @@ automations:
       is: "tira giù le tapparelle del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù le tapparelle in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira giù tapparelle della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -65,19 +56,19 @@ automations:
       is: "tira giù tapparelle del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù tapparelle in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira giù tapparelle cameretta"
   actions:
     - type: device.command.OnOff
       on: false
-      devices: tapparella raise - cameretta
+      devices:
+        - tapparella raise - cameretta
     - type: device.command.OnOff
       on: true
-      devices: tapparella lower - cameretta
+      devices:
+        - tapparella lower - cameretta
     - type: time.delay
       for: 60sec
     - type: device.command.OnOff
       on: false
-      devices: tapparella lower - cameretta
+      devices:
+        - tapparella lower - cameretta

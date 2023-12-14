@@ -1,6 +1,6 @@
 metadata:
-  name: Raise camera padronale roller shutters
-  description: Automation to raise roller shutter for room camera padronale
+  name: Raise camera padronale, camera padronale roller shutters
+  description: Automation to raise roller shutters for rooms camera padronale, camera padronale
 automations:
   starters:
     - type: assistant.event.OkGoogle
@@ -17,9 +17,6 @@ automations:
       is: "alza le tapparelle del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza le tapparelle in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "alza tapparelle della camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -30,9 +27,6 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparelle del camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle in camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparelle camera padronale"
@@ -50,9 +44,6 @@ automations:
       is: "tira su le tapparelle del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su le tapparelle in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira su tapparelle della camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -65,30 +56,22 @@ automations:
       is: "tira su tapparelle del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su tapparelle in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira su tapparelle camera padronale"
   actions:
     - type: device.command.OnOff
       on: false
-      devices: tapparella grande lower - camera padronale
+      devices:
+        - tapparella grande lower - camera padronale
+        - tapparella piccola lower - camera padronale
     - type: device.command.OnOff
       on: true
-      devices: tapparella grande raise - camera padronale
+      devices:
+        - tapparella grande raise - camera padronale
+        - tapparella piccola raise - camera padronale
     - type: time.delay
       for: 60sec
     - type: device.command.OnOff
       on: false
-      devices: tapparella grande raise - camera padronale
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella piccola lower - camera padronale
-    - type: device.command.OnOff
-      on: true
-      devices: tapparella piccola raise - camera padronale
-    - type: time.delay
-      for: 60sec
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella piccola raise - camera padronale
+      devices:
+        - tapparella grande raise - camera padronale
+        - tapparella piccola raise - camera padronale

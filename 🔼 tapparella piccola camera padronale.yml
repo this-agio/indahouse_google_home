@@ -1,5 +1,5 @@
 metadata:
-  name: Raise tapparella piccola camera padronale roller shutters
+  name: Raise tapparella piccola camera padronale roller shutter
   description: Automation to raise tapparella piccola roller shutter for room camera padronale
 automations:
   starters:
@@ -17,9 +17,6 @@ automations:
       is: "alza la tapparella piccola del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella piccola in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "alza tapparella piccola della camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -30,9 +27,6 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparella piccola del camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella piccola in camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparella piccola camera padronale"
@@ -50,9 +44,6 @@ automations:
       is: "tira su la tapparella piccola del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su la tapparella piccola in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira su tapparella piccola della camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -65,19 +56,19 @@ automations:
       is: "tira su tapparella piccola del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su tapparella piccola in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira su tapparella piccola camera padronale"
   actions:
     - type: device.command.OnOff
       on: false
-      devices: tapparella piccola lower - camera padronale
+      devices:
+        - tapparella piccola lower - camera padronale
     - type: device.command.OnOff
       on: true
-      devices: tapparella piccola raise - camera padronale
+      devices:
+        - tapparella piccola raise - camera padronale
     - type: time.delay
       for: 60sec
     - type: device.command.OnOff
       on: false
-      devices: tapparella piccola raise - camera padronale
+      devices:
+        - tapparella piccola raise - camera padronale

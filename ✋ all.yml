@@ -1,6 +1,6 @@
 metadata:
   name: Stop cucina, ufficio, cameretta, camera padronale, camera padronale roller shutters
-  description: Automation to stop roller shutters for google_home_automations.rooms cucina, ufficio, cameretta, camera padronale, camera padronale
+  description: Automation to stop roller shutters for rooms cucina, ufficio, cameretta, camera padronale, camera padronale
 automations:
   starters:
     - type: assistant.event.OkGoogle
@@ -58,53 +58,26 @@ automations:
       eventData: query
       is: "stoppa tutte le tapparelle della casa"
     - type: time.schedule
-      at: 22:00
+      at: 22:30
       weekdays:
         - MON
         - TUE
         - WED
         - THU
         - FRI
-        - SAT
         - SUN
-    - type: time.schedule
-      at: 10:00
-      weekdays:
-        - MON
-        - TUE
-        - WED
-        - THU
-        - FRI
         - SAT
-        - SUN
   actions:
     - type: device.command.OnOff
       on: false
-      devices: tapparella grande raise - cucina
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella grande lower - cucina
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella raise - ufficio
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella lower - ufficio
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella raise - cameretta
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella lower - cameretta
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella grande raise - camera padronale
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella grande lower - camera padronale
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella piccola raise - camera padronale
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella piccola lower - camera padronale
+      devices:
+        - tapparella grande raise - cucina
+        - tapparella raise - ufficio
+        - tapparella raise - cameretta
+        - tapparella grande raise - camera padronale
+        - tapparella piccola raise - camera padronale
+        - tapparella grande lower - cucina
+        - tapparella lower - ufficio
+        - tapparella lower - cameretta
+        - tapparella grande lower - camera padronale
+        - tapparella piccola lower - camera padronale

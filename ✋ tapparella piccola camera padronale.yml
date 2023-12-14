@@ -1,5 +1,5 @@
 metadata:
-  name: Stop tapparella piccola camera padronale roller shutters
+  name: Stop tapparella piccola camera padronale roller shutter
   description: Automation to stop tapparella piccola roller shutter for room camera padronale
 automations:
   starters:
@@ -17,9 +17,6 @@ automations:
       is: "ferma la tapparella piccola del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma la tapparella piccola in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "ferma tapparella piccola della camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -30,9 +27,6 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparella piccola del camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella piccola in camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparella piccola camera padronale"
@@ -50,9 +44,6 @@ automations:
       is: "stoppa la tapparella piccola del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa la tapparella piccola in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "stoppa tapparella piccola della camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -65,14 +56,10 @@ automations:
       is: "stoppa tapparella piccola del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa tapparella piccola in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "stoppa tapparella piccola camera padronale"
   actions:
     - type: device.command.OnOff
       on: false
-      devices: tapparella piccola raise - camera padronale
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella piccola lower - camera padronale
+      devices:
+        - tapparella piccola raise - camera padronale
+        - tapparella piccola lower - camera padronale

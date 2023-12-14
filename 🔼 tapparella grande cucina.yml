@@ -1,5 +1,5 @@
 metadata:
-  name: Raise tapparella grande cucina roller shutters
+  name: Raise tapparella grande cucina roller shutter
   description: Automation to raise tapparella grande roller shutter for room cucina
 automations:
   starters:
@@ -17,9 +17,6 @@ automations:
       is: "alza la tapparella grande del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella grande in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "alza tapparella grande della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -30,9 +27,6 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparella grande del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella grande in cucina"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparella grande cucina"
@@ -50,9 +44,6 @@ automations:
       is: "tira su la tapparella grande del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su la tapparella grande in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira su tapparella grande della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -65,19 +56,19 @@ automations:
       is: "tira su tapparella grande del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su tapparella grande in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira su tapparella grande cucina"
   actions:
     - type: device.command.OnOff
       on: false
-      devices: tapparella grande lower - cucina
+      devices:
+        - tapparella grande lower - cucina
     - type: device.command.OnOff
       on: true
-      devices: tapparella grande raise - cucina
+      devices:
+        - tapparella grande raise - cucina
     - type: time.delay
       for: 60sec
     - type: device.command.OnOff
       on: false
-      devices: tapparella grande raise - cucina
+      devices:
+        - tapparella grande raise - cucina

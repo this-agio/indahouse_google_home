@@ -1,6 +1,6 @@
 metadata:
   name: Stop ufficio roller shutters
-  description: Automation to stop roller shutter for room ufficio
+  description: Automation to stop roller shutters for rooms ufficio
 automations:
   starters:
     - type: assistant.event.OkGoogle
@@ -17,9 +17,6 @@ automations:
       is: "ferma le tapparelle del ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma le tapparelle in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "ferma tapparelle della ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -30,9 +27,6 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle del ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparelle in ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle ufficio"
@@ -50,9 +44,6 @@ automations:
       is: "stoppa le tapparelle del ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa le tapparelle in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "stoppa tapparelle della ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -65,14 +56,10 @@ automations:
       is: "stoppa tapparelle del ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa tapparelle in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "stoppa tapparelle ufficio"
   actions:
     - type: device.command.OnOff
       on: false
-      devices: tapparella raise - ufficio
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella lower - ufficio
+      devices:
+        - tapparella raise - ufficio
+        - tapparella lower - ufficio

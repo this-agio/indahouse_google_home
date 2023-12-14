@@ -1,5 +1,5 @@
 metadata:
-  name: Raise tapparella cameretta roller shutters
+  name: Raise tapparella cameretta roller shutter
   description: Automation to raise tapparella roller shutter for room cameretta
 automations:
   starters:
@@ -17,9 +17,6 @@ automations:
       is: "alza la tapparella del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "alza tapparella della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -30,9 +27,6 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparella del cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella in cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparella cameretta"
@@ -50,9 +44,6 @@ automations:
       is: "tira su la tapparella del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su la tapparella in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira su tapparella della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -65,19 +56,19 @@ automations:
       is: "tira su tapparella del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su tapparella in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira su tapparella cameretta"
   actions:
     - type: device.command.OnOff
       on: false
-      devices: tapparella lower - cameretta
+      devices:
+        - tapparella lower - cameretta
     - type: device.command.OnOff
       on: true
-      devices: tapparella raise - cameretta
+      devices:
+        - tapparella raise - cameretta
     - type: time.delay
       for: 60sec
     - type: device.command.OnOff
       on: false
-      devices: tapparella raise - cameretta
+      devices:
+        - tapparella raise - cameretta

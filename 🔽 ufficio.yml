@@ -1,6 +1,6 @@
 metadata:
   name: Lower ufficio roller shutters
-  description: Automation to lower roller shutter for room ufficio
+  description: Automation to lower roller shutters for rooms ufficio
 automations:
   starters:
     - type: assistant.event.OkGoogle
@@ -17,9 +17,6 @@ automations:
       is: "abbassa le tapparelle del ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa le tapparelle in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "abbassa tapparelle della ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -30,9 +27,6 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "abbassa tapparelle del ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle in ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "abbassa tapparelle ufficio"
@@ -50,9 +44,6 @@ automations:
       is: "tira giù le tapparelle del ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù le tapparelle in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira giù tapparelle della ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -65,19 +56,19 @@ automations:
       is: "tira giù tapparelle del ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù tapparelle in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira giù tapparelle ufficio"
   actions:
     - type: device.command.OnOff
       on: false
-      devices: tapparella raise - ufficio
+      devices:
+        - tapparella raise - ufficio
     - type: device.command.OnOff
       on: true
-      devices: tapparella lower - ufficio
+      devices:
+        - tapparella lower - ufficio
     - type: time.delay
       for: 60sec
     - type: device.command.OnOff
       on: false
-      devices: tapparella lower - ufficio
+      devices:
+        - tapparella lower - ufficio

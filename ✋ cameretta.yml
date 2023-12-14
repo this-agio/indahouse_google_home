@@ -1,6 +1,6 @@
 metadata:
   name: Stop cameretta roller shutters
-  description: Automation to stop roller shutter for room cameretta
+  description: Automation to stop roller shutters for rooms cameretta
 automations:
   starters:
     - type: assistant.event.OkGoogle
@@ -17,9 +17,6 @@ automations:
       is: "ferma le tapparelle del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma le tapparelle in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "ferma tapparelle della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -30,9 +27,6 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle del cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparelle in cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle cameretta"
@@ -50,9 +44,6 @@ automations:
       is: "stoppa le tapparelle del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa le tapparelle in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "stoppa tapparelle della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -65,14 +56,10 @@ automations:
       is: "stoppa tapparelle del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa tapparelle in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "stoppa tapparelle cameretta"
   actions:
     - type: device.command.OnOff
       on: false
-      devices: tapparella raise - cameretta
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella lower - cameretta
+      devices:
+        - tapparella raise - cameretta
+        - tapparella lower - cameretta

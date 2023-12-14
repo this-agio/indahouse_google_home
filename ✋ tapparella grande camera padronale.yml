@@ -1,5 +1,5 @@
 metadata:
-  name: Stop tapparella grande camera padronale roller shutters
+  name: Stop tapparella grande camera padronale roller shutter
   description: Automation to stop tapparella grande roller shutter for room camera padronale
 automations:
   starters:
@@ -17,9 +17,6 @@ automations:
       is: "ferma la tapparella grande del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma la tapparella grande in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "ferma tapparella grande della camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -30,9 +27,6 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparella grande del camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella grande in camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparella grande camera padronale"
@@ -50,9 +44,6 @@ automations:
       is: "stoppa la tapparella grande del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa la tapparella grande in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "stoppa tapparella grande della camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -65,14 +56,10 @@ automations:
       is: "stoppa tapparella grande del camera padronale"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa tapparella grande in camera padronale"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "stoppa tapparella grande camera padronale"
   actions:
     - type: device.command.OnOff
       on: false
-      devices: tapparella grande raise - camera padronale
-    - type: device.command.OnOff
-      on: false
-      devices: tapparella grande lower - camera padronale
+      devices:
+        - tapparella grande raise - camera padronale
+        - tapparella grande lower - camera padronale
