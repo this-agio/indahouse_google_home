@@ -1,6 +1,6 @@
 metadata:
-  name: Lower cucina, ufficio, cameretta, camera padronale, camera padronale roller shutters
-  description: Automation to lower roller shutters for rooms cucina, ufficio, cameretta, camera padronale, camera padronale
+  name: Lower cucina, ufficio, cameretta, camera padronale roller shutters
+  description: Automation to lower roller shutters for rooms cucina, ufficio, cameretta, camera padronale
 automations:
   starters:
     - type: assistant.event.OkGoogle

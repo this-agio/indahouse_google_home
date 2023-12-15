@@ -1,6 +1,6 @@
 metadata:
-  name: Lower camera padronale, camera padronale roller shutters
-  description: Automation to lower roller shutters for rooms camera padronale, camera padronale
+  name: Lower camera padronale roller shutters
+  description: Automation to lower roller shutters for rooms camera padronale
 automations:
   starters:
     - type: assistant.event.OkGoogle
