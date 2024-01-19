@@ -1,0 +1,65 @@
+metadata:
+  name: Stop tapparella piccola camera roller shutter
+  description: Automation to stop tapparella piccola roller shutter for room camera
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella piccola della camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella piccola in camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella piccola dell'camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella piccola del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella piccola della camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella piccola in camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella piccola dell'camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella piccola del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella piccola camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella piccola della camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella piccola in camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella piccola dell'camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella piccola del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella piccola della camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella piccola in camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella piccola dell'camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella piccola del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella piccola camera"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella piccola raise - camera
+        - tapparella piccola lower - camera

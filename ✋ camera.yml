@@ -1,83 +1,67 @@
 metadata:
-  name: Stop cucina, ufficio, cameretta, camera roller shutters
-  description: Automation to stop roller shutters for rooms cucina, ufficio, cameretta, camera
+  name: Stop camera roller shutters
+  description: Automation to stop roller shutters for rooms camera
 automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma tapparelle"
+      is: "ferma le tapparelle della camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma tapparelle casa"
+      is: "ferma le tapparelle in camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma tapparelle della casa"
+      is: "ferma le tapparelle dell'camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma le tapparelle"
+      is: "ferma le tapparelle del camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma le tapparelle casa"
+      is: "ferma tapparelle della camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma le tapparelle della casa"
+      is: "ferma tapparelle in camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma tutte le tapparelle"
+      is: "ferma tapparelle dell'camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma tutte le tapparelle casa"
+      is: "ferma tapparelle del camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma tutte le tapparelle della casa"
+      is: "ferma tapparelle camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa tapparelle"
+      is: "stoppa le tapparelle della camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa tapparelle casa"
+      is: "stoppa le tapparelle in camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa tapparelle della casa"
+      is: "stoppa le tapparelle dell'camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa le tapparelle"
+      is: "stoppa le tapparelle del camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa le tapparelle casa"
+      is: "stoppa tapparelle della camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa le tapparelle della casa"
+      is: "stoppa tapparelle in camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa tutte le tapparelle"
+      is: "stoppa tapparelle dell'camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa tutte le tapparelle casa"
+      is: "stoppa tapparelle del camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "stoppa tutte le tapparelle della casa"
-    - type: time.schedule
-      at: 22:30
-      weekdays:
-        - MON
-        - TUE
-        - WED
-        - THU
-        - FRI
-        - SUN
-        - SAT
+      is: "stoppa tapparelle camera"
   actions:
     - type: device.command.OnOff
       on: false
       devices:
-        - tapparella grande raise - cucina
-        - tapparella raise - ufficio
-        - tapparella raise - cameretta
         - tapparella grande raise - camera
         - tapparella piccola raise - camera
-        - tapparella grande lower - cucina
-        - tapparella lower - ufficio
-        - tapparella lower - cameretta
         - tapparella grande lower - camera
         - tapparella piccola lower - camera

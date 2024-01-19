@@ -1,0 +1,65 @@
+metadata:
+  name: Stop tapparella grande camera roller shutter
+  description: Automation to stop tapparella grande roller shutter for room camera
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella grande della camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella grande in camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella grande dell'camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma la tapparella grande del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella grande della camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella grande in camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella grande dell'camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella grande del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparella grande camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella grande della camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella grande in camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella grande dell'camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa la tapparella grande del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella grande della camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella grande in camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella grande dell'camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella grande del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparella grande camera"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande raise - camera
+        - tapparella grande lower - camera

@@ -1,86 +1,74 @@
 metadata:
-  name: Raise cucina, ufficio, cameretta, camera roller shutters
-  description: Automation to raise roller shutters for rooms cucina, ufficio, cameretta, camera
+  name: Raise tapparella grande camera roller shutter
+  description: Automation to raise tapparella grande roller shutter for room camera
 automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza tapparelle"
+      is: "alza la tapparella grande della camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza tapparelle casa"
+      is: "alza la tapparella grande in camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza tapparelle della casa"
+      is: "alza la tapparella grande dell'camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza le tapparelle"
+      is: "alza la tapparella grande del camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza le tapparelle casa"
+      is: "alza tapparella grande della camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza le tapparelle della casa"
+      is: "alza tapparella grande in camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza tutte le tapparelle"
+      is: "alza tapparella grande dell'camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza tutte le tapparelle casa"
+      is: "alza tapparella grande del camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza tutte le tapparelle della casa"
+      is: "alza tapparella grande camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su tapparelle"
+      is: "tira su la tapparella grande della camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su tapparelle casa"
+      is: "tira su la tapparella grande in camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su tapparelle della casa"
+      is: "tira su la tapparella grande dell'camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su le tapparelle"
+      is: "tira su la tapparella grande del camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su le tapparelle casa"
+      is: "tira su tapparella grande della camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su le tapparelle della casa"
+      is: "tira su tapparella grande in camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su tutte le tapparelle"
+      is: "tira su tapparella grande dell'camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su tutte le tapparelle casa"
+      is: "tira su tapparella grande del camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira su tutte le tapparelle della casa"
+      is: "tira su tapparella grande camera"
   actions:
     - type: device.command.OnOff
       on: false
       devices:
-        - tapparella grande lower - cucina
-        - tapparella lower - ufficio
-        - tapparella lower - cameretta
         - tapparella grande lower - camera
-        - tapparella piccola lower - camera
     - type: device.command.OnOff
       on: true
       devices:
-        - tapparella grande raise - cucina
-        - tapparella raise - ufficio
-        - tapparella raise - cameretta
         - tapparella grande raise - camera
-        - tapparella piccola raise - camera
     - type: time.delay
       for: 60sec
     - type: device.command.OnOff
       on: false
       devices:
-        - tapparella grande raise - cucina
-        - tapparella raise - ufficio
-        - tapparella raise - cameretta
         - tapparella grande raise - camera
-        - tapparella piccola raise - camera
