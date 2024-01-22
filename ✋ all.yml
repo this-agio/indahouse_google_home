@@ -72,11 +72,13 @@ automations:
       on: false
       devices:
         - tapparella grande raise - cucina
+        - tapparella piccola raise - cucina
         - tapparella raise - ufficio
         - tapparella raise - cameretta
         - tapparella grande raise - camera
         - tapparella piccola raise - camera
         - tapparella grande lower - cucina
+        - tapparella piccola lower - cucina
         - tapparella lower - ufficio
         - tapparella lower - cameretta
         - tapparella grande lower - camera

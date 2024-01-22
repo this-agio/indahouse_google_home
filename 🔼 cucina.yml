@@ -62,13 +62,16 @@ automations:
       on: false
       devices:
         - tapparella grande lower - cucina
+        - tapparella piccola lower - cucina
     - type: device.command.OnOff
       on: true
       devices:
         - tapparella grande raise - cucina
+        - tapparella piccola raise - cucina
     - type: time.delay
       for: 60sec
     - type: device.command.OnOff
       on: false
       devices:
         - tapparella grande raise - cucina
+        - tapparella piccola raise - cucina

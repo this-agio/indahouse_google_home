@@ -1,77 +1,74 @@
 metadata:
-  name: Lower cucina roller shutters
-  description: Automation to lower roller shutters for rooms cucina
+  name: Raise tapparella piccola cucina roller shutter
+  description: Automation to raise tapparella piccola roller shutter for room cucina
 automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa le tapparelle della cucina"
+      is: "alza la tapparella piccola della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa le tapparelle in cucina"
+      is: "alza la tapparella piccola in cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa le tapparelle dell'cucina"
+      is: "alza la tapparella piccola dell'cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa le tapparelle del cucina"
+      is: "alza la tapparella piccola del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa tapparelle della cucina"
+      is: "alza tapparella piccola della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa tapparelle in cucina"
+      is: "alza tapparella piccola in cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa tapparelle dell'cucina"
+      is: "alza tapparella piccola dell'cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa tapparelle del cucina"
+      is: "alza tapparella piccola del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa tapparelle cucina"
+      is: "alza tapparella piccola cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù le tapparelle della cucina"
+      is: "tira su la tapparella piccola della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù le tapparelle in cucina"
+      is: "tira su la tapparella piccola in cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù le tapparelle dell'cucina"
+      is: "tira su la tapparella piccola dell'cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù le tapparelle del cucina"
+      is: "tira su la tapparella piccola del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù tapparelle della cucina"
+      is: "tira su tapparella piccola della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù tapparelle in cucina"
+      is: "tira su tapparella piccola in cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù tapparelle dell'cucina"
+      is: "tira su tapparella piccola dell'cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù tapparelle del cucina"
+      is: "tira su tapparella piccola del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "tira giù tapparelle cucina"
+      is: "tira su tapparella piccola cucina"
   actions:
     - type: device.command.OnOff
       on: false
       devices:
-        - tapparella grande raise - cucina
-        - tapparella piccola raise - cucina
+        - tapparella piccola lower - cucina
     - type: device.command.OnOff
       on: true
       devices:
-        - tapparella grande lower - cucina
-        - tapparella piccola lower - cucina
+        - tapparella piccola raise - cucina
     - type: time.delay
       for: 60sec
     - type: device.command.OnOff
       on: false
       devices:
-        - tapparella grande lower - cucina
-        - tapparella piccola lower - cucina
+        - tapparella piccola raise - cucina
