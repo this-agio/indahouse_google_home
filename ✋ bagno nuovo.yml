@@ -1,0 +1,65 @@
+metadata:
+  name: Stop bagno nuovo roller shutters
+  description: Automation to stop roller shutters for rooms bagno nuovo
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle della bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle in bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle dell'bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle del bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle della bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle in bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle dell'bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle del bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle della bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle in bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle dell'bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle del bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle della bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle in bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle dell'bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle del bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle bagno nuovo"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - bagno nuovo
+        - tapparella lower - bagno nuovo

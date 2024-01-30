@@ -1,6 +1,6 @@
 metadata:
-  name: Lower cucina, ufficio, cameretta, camera roller shutters
-  description: Automation to lower roller shutters for rooms cucina, ufficio, cameretta, camera
+  name: Lower cucina, ufficio, cameretta, camera, bagno vecchio, bagno nuovo roller shutters
+  description: Automation to lower roller shutters for rooms cucina, ufficio, cameretta, camera, bagno vecchio, bagno nuovo
 automations:
   starters:
     - type: assistant.event.OkGoogle
@@ -67,6 +67,8 @@ automations:
         - tapparella raise - cameretta
         - tapparella grande raise - camera
         - tapparella piccola raise - camera
+        - tapparella raise - bagno vecchio
+        - tapparella raise - bagno nuovo
     - type: device.command.OnOff
       on: true
       devices:
@@ -76,6 +78,8 @@ automations:
         - tapparella lower - cameretta
         - tapparella grande lower - camera
         - tapparella piccola lower - camera
+        - tapparella lower - bagno vecchio
+        - tapparella lower - bagno nuovo
     - type: time.delay
       for: 60sec
     - type: device.command.OnOff
@@ -87,3 +91,5 @@ automations:
         - tapparella lower - cameretta
         - tapparella grande lower - camera
         - tapparella piccola lower - camera
+        - tapparella lower - bagno vecchio
+        - tapparella lower - bagno nuovo

@@ -1,0 +1,74 @@
+metadata:
+  name: Lower bagno vecchio roller shutters
+  description: Automation to lower roller shutters for rooms bagno vecchio
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle della bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle in bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dell'bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle del bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle della bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle in bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dell'bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle del bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle della bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle in bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dell'bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle del bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle della bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle in bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dell'bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle del bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle bagno vecchio"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - bagno vecchio
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella lower - bagno vecchio
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - bagno vecchio

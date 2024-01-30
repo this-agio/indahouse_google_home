@@ -1,0 +1,65 @@
+metadata:
+  name: Stop bagno vecchio roller shutters
+  description: Automation to stop roller shutters for rooms bagno vecchio
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle della bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle in bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle dell'bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle del bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle della bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle in bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle dell'bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle del bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle della bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle in bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle dell'bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle del bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle della bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle in bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle dell'bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle del bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle bagno vecchio"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - bagno vecchio
+        - tapparella lower - bagno vecchio
