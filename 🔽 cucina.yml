@@ -17,6 +17,21 @@ automations:
       is: "abbassa le tapparelle del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "abbassa le tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle negli cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "abbassa tapparelle della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -27,6 +42,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "abbassa tapparelle del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle negli cucina"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "abbassa tapparelle cucina"
@@ -44,6 +74,21 @@ automations:
       is: "tira giù le tapparelle del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "tira giù le tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle negli cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "tira giù tapparelle della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -54,6 +99,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "tira giù tapparelle del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle negli cucina"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "tira giù tapparelle cucina"

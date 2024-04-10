@@ -17,6 +17,21 @@ automations:
       is: "ferma le tapparelle del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "ferma le tapparelle dei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nella cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nelle cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle negli cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "ferma tapparelle della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -27,6 +42,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle dei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nella cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nelle cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle negli cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle cameretta"
@@ -44,6 +74,21 @@ automations:
       is: "stoppa le tapparelle del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "stoppa le tapparelle dei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nella cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nelle cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle negli cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "stoppa tapparelle della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -54,6 +99,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle dei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nella cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nelle cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle negli cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle cameretta"

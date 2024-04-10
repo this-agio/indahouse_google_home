@@ -17,6 +17,21 @@ automations:
       is: "ferma le tapparelle del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "ferma le tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle negli cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "ferma tapparelle della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -27,6 +42,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle negli cucina"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle cucina"
@@ -44,6 +74,21 @@ automations:
       is: "stoppa le tapparelle del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "stoppa le tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle negli cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "stoppa tapparelle della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -54,6 +99,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle negli cucina"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle cucina"

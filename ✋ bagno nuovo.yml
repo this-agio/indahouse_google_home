@@ -17,6 +17,21 @@ automations:
       is: "ferma le tapparelle del bagno nuovo"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "ferma le tapparelle dei bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nei bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nella bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nelle bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle negli bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "ferma tapparelle della bagno nuovo"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -27,6 +42,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle del bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle dei bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nei bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nella bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nelle bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle negli bagno nuovo"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle bagno nuovo"
@@ -44,6 +74,21 @@ automations:
       is: "stoppa le tapparelle del bagno nuovo"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "stoppa le tapparelle dei bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nei bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nella bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nelle bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle negli bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "stoppa tapparelle della bagno nuovo"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -54,6 +99,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle del bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle dei bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nei bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nella bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nelle bagno nuovo"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle negli bagno nuovo"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle bagno nuovo"

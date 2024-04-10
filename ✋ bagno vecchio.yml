@@ -17,6 +17,21 @@ automations:
       is: "ferma le tapparelle del bagno vecchio"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "ferma le tapparelle dei bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nei bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nella bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nelle bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle negli bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "ferma tapparelle della bagno vecchio"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -27,6 +42,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle del bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle dei bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nei bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nella bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nelle bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle negli bagno vecchio"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle bagno vecchio"
@@ -44,6 +74,21 @@ automations:
       is: "stoppa le tapparelle del bagno vecchio"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "stoppa le tapparelle dei bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nei bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nella bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nelle bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle negli bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "stoppa tapparelle della bagno vecchio"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -54,6 +99,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle del bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle dei bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nei bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nella bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nelle bagno vecchio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle negli bagno vecchio"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle bagno vecchio"

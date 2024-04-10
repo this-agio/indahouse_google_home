@@ -17,6 +17,21 @@ automations:
       is: "ferma le tapparelle del camera"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "ferma le tapparelle dei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nella camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nelle camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle negli camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "ferma tapparelle della camera"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -27,6 +42,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle dei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nella camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nelle camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle negli camera"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle camera"
@@ -44,6 +74,21 @@ automations:
       is: "stoppa le tapparelle del camera"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "stoppa le tapparelle dei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nella camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nelle camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle negli camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "stoppa tapparelle della camera"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -54,6 +99,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle dei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nella camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nelle camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle negli camera"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle camera"

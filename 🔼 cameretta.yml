@@ -17,6 +17,21 @@ automations:
       is: "alza le tapparelle del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "alza le tapparelle dei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nella cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nelle cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle negli cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "alza tapparelle della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -27,6 +42,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparelle del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle dei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nella cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nelle cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle negli cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparelle cameretta"
@@ -44,6 +74,21 @@ automations:
       is: "tira su le tapparelle del cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "tira su le tapparelle dei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nella cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nelle cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle negli cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "tira su tapparelle della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -54,6 +99,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "tira su tapparelle del cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle dei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nei cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nella cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nelle cameretta"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle negli cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "tira su tapparelle cameretta"

@@ -17,6 +17,21 @@ automations:
       is: "alza le tapparelle del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "alza le tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle negli cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "alza tapparelle della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -27,6 +42,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparelle del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle negli cucina"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparelle cucina"
@@ -44,6 +74,21 @@ automations:
       is: "tira su le tapparelle del cucina"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "tira su le tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle negli cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "tira su tapparelle della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -54,6 +99,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "tira su tapparelle del cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle dei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nei cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nella cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nelle cucina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle negli cucina"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "tira su tapparelle cucina"

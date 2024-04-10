@@ -1,0 +1,254 @@
+metadata:
+  name: Lower cameretta, camera roller shutters
+  description: Automation to lower roller shutters for rooms cameretta, camera
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle della zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle in zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dell'zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle del zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dei zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nei zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nella zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nelle zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle negli zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle della zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle in zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dell'zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle del zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dei zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nei zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nella zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nelle zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle negli zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle della zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle in zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dell'zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle del zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dei zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nei zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nella zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nelle zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle negli zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle della zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle in zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dell'zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle del zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dei zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nei zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nella zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nelle zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle negli zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle zona notte"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle della camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle in camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dell'camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle del camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dei camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nei camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nella camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nelle camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle negli camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle della camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle in camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dell'camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle del camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dei camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nei camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nella camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nelle camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle negli camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle della camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle in camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dell'camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle del camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dei camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nei camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nella camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nelle camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle negli camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle della camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle in camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dell'camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle del camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dei camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nei camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nella camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nelle camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle negli camere"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle camere"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - cameretta
+        - tapparella grande raise - camera
+        - tapparella piccola raise - camera
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella lower - cameretta
+        - tapparella grande lower - camera
+        - tapparella piccola lower - camera
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - cameretta
+        - tapparella grande lower - camera
+        - tapparella piccola lower - camera

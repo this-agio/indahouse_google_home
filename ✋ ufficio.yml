@@ -17,6 +17,21 @@ automations:
       is: "ferma le tapparelle del ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "ferma le tapparelle dei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nella ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nelle ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle negli ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "ferma tapparelle della ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -27,6 +42,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle dei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nella ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nelle ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle negli ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "ferma tapparelle ufficio"
@@ -44,6 +74,21 @@ automations:
       is: "stoppa le tapparelle del ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "stoppa le tapparelle dei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nella ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nelle ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle negli ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "stoppa tapparelle della ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -54,6 +99,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle dei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nella ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nelle ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle negli ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "stoppa tapparelle ufficio"

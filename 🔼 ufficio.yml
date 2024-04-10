@@ -17,6 +17,21 @@ automations:
       is: "alza le tapparelle del ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "alza le tapparelle dei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nella ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nelle ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle negli ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "alza tapparelle della ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -27,6 +42,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparelle del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle dei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nella ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nelle ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle negli ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparelle ufficio"
@@ -44,6 +74,21 @@ automations:
       is: "tira su le tapparelle del ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "tira su le tapparelle dei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nella ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nelle ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle negli ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "tira su tapparelle della ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -54,6 +99,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "tira su tapparelle del ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle dei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nei ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nella ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nelle ufficio"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle negli ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "tira su tapparelle ufficio"

@@ -17,6 +17,21 @@ automations:
       is: "alza le tapparelle del camera"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "alza le tapparelle dei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nella camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nelle camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle negli camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "alza tapparelle della camera"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -27,6 +42,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparelle del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle dei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nella camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nelle camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle negli camera"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tapparelle camera"
@@ -44,6 +74,21 @@ automations:
       is: "tira su le tapparelle del camera"
     - type: assistant.event.OkGoogle
       eventData: query
+      is: "tira su le tapparelle dei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nella camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nelle camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle negli camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
       is: "tira su tapparelle della camera"
     - type: assistant.event.OkGoogle
       eventData: query
@@ -54,6 +99,21 @@ automations:
     - type: assistant.event.OkGoogle
       eventData: query
       is: "tira su tapparelle del camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle dei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nei camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nella camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nelle camera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle negli camera"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "tira su tapparelle camera"

@@ -1,0 +1,251 @@
+metadata:
+  name: Lower bagno vecchio, bagno nuovo roller shutters
+  description: Automation to lower roller shutters for rooms bagno vecchio, bagno nuovo
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle della zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle in zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dell'zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle del zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dei zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nei zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nella zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nelle zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle negli zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle della zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle in zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dell'zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle del zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dei zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nei zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nella zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nelle zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle negli zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle della zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle in zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dell'zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle del zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dei zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nei zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nella zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nelle zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle negli zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle della zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle in zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dell'zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle del zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dei zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nei zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nella zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nelle zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle negli zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle zona giorno"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle della bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle in bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dell'bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle del bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dei bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nei bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nella bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nelle bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle negli bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle della bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle in bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dell'bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle del bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dei bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nei bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nella bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nelle bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle negli bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle della bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle in bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dell'bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle del bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dei bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nei bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nella bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nelle bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle negli bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle della bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle in bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dell'bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle del bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dei bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nei bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nella bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nelle bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle negli bagni"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle bagni"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - bagno vecchio
+        - tapparella raise - bagno nuovo
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella lower - bagno vecchio
+        - tapparella lower - bagno nuovo
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - bagno vecchio
+        - tapparella lower - bagno nuovo
