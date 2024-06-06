@@ -1,0 +1,143 @@
+metadata:
+  name: Raise sera roller shutters
+  description: Automation to raise roller shutters for group sera
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle della sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle in sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle dell'sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle del sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle dei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nella sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nelle sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle negli sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle della sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle in sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle dell'sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle del sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle dei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nella sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nelle sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle negli sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle della sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle in sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle dell'sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle del sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle dei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nella sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nelle sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle negli sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle della sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle in sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle dell'sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle del sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle dei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nella sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nelle sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle negli sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle sera"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - cameretta
+        - tapparella grande lower - camera
+        - tapparella piccola lower - camera
+        - tapparella lower - bagno vecchio
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella raise - cameretta
+        - tapparella grande raise - camera
+        - tapparella piccola raise - camera
+        - tapparella raise - bagno vecchio
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - cameretta
+        - tapparella grande raise - camera
+        - tapparella piccola raise - camera
+        - tapparella raise - bagno vecchio

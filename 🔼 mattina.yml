@@ -1,0 +1,146 @@
+metadata:
+  name: Raise mattina roller shutters
+  description: Automation to raise roller shutters for group mattina
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle della mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle in mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle dell'mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle del mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle dei mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nei mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nella mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle nelle mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle negli mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle della mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle in mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle dell'mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle del mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle dei mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nei mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nella mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle nelle mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle negli mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza tapparelle mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle della mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle in mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle dell'mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle del mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle dei mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nei mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nella mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle nelle mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle negli mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle della mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle in mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle dell'mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle del mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle dei mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nei mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nella mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle nelle mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle negli mattina"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su tapparelle mattina"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande lower - cucina
+        - tapparella piccola lower - cucina
+        - tapparella lower - ufficio
+        - tapparella lower - bagno vecchio
+        - tapparella lower - bagno nuovo
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella grande raise - cucina
+        - tapparella piccola raise - cucina
+        - tapparella raise - ufficio
+        - tapparella raise - bagno vecchio
+        - tapparella raise - bagno nuovo
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande raise - cucina
+        - tapparella piccola raise - cucina
+        - tapparella raise - ufficio
+        - tapparella raise - bagno vecchio
+        - tapparella raise - bagno nuovo

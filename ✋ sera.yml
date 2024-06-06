@@ -1,0 +1,131 @@
+metadata:
+  name: Stop sera roller shutters
+  description: Automation to stop roller shutters for group sera
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle della sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle in sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle dell'sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle del sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle dei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nella sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle nelle sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle negli sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle della sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle in sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle dell'sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle del sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle dei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nella sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle nelle sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle negli sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma tapparelle sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle della sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle in sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle dell'sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle del sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle dei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nella sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle nelle sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle negli sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle della sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle in sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle dell'sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle del sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle dei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nei sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nella sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle nelle sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle negli sera"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa tapparelle sera"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - cameretta
+        - tapparella grande raise - camera
+        - tapparella piccola raise - camera
+        - tapparella raise - bagno vecchio
+        - tapparella lower - cameretta
+        - tapparella grande lower - camera
+        - tapparella piccola lower - camera
+        - tapparella lower - bagno vecchio
