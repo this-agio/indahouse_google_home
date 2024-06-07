@@ -1,0 +1,140 @@
+metadata:
+  name: Lower ovest roller shutters
+  description: Automation to lower roller shutters for group ovest
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle della ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle in ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dell'ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle del ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dei ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nei ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nella ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nelle ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle negli ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle della ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle in ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dell'ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle del ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dei ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nei ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nella ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nelle ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle negli ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle della ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle in ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dell'ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle del ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dei ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nei ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nella ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nelle ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle negli ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle della ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle in ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dell'ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle del ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dei ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nei ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nella ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nelle ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle negli ovest"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle ovest"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - ufficio
+        - tapparella raise - bagno vecchio
+        - tapparella raise - bagno nuovo
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella lower - ufficio
+        - tapparella lower - bagno vecchio
+        - tapparella lower - bagno nuovo
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - ufficio
+        - tapparella lower - bagno vecchio
+        - tapparella lower - bagno nuovo

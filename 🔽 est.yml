@@ -1,0 +1,146 @@
+metadata:
+  name: Lower est roller shutters
+  description: Automation to lower roller shutters for group est
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle della est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle in est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dell'est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle del est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle dei est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nei est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nella est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle nelle est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa le tapparelle negli est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle della est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle in est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dell'est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle del est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle dei est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nei est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nella est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle nelle est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle negli est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa tapparelle est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle della est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle in est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dell'est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle del est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle dei est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nei est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nella est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle nelle est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù le tapparelle negli est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle della est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle in est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dell'est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle del est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle dei est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nei est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nella est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle nelle est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle negli est"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù tapparelle est"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande raise - cucina
+        - tapparella piccola raise - cucina
+        - tapparella raise - cameretta
+        - tapparella grande raise - camera
+        - tapparella piccola raise - camera
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella grande lower - cucina
+        - tapparella piccola lower - cucina
+        - tapparella lower - cameretta
+        - tapparella grande lower - camera
+        - tapparella piccola lower - camera
+    - type: time.delay
+      for: 60sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande lower - cucina
+        - tapparella piccola lower - cucina
+        - tapparella lower - cameretta
+        - tapparella grande lower - camera
+        - tapparella piccola lower - camera
