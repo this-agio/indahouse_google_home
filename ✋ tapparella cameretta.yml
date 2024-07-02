@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma la tapparella della cameretta"
+      is: "ferma  la tapparella della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma la tapparella in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma la tapparella dell'cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma la tapparella del cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella della cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella dell'cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella del cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella della cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella dell'cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella del cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella della cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella dell'cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella del cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella cameretta"
+      is: "stoppa  la tapparella della cameretta"
   actions:
     - type: device.command.OnOff
       on: false

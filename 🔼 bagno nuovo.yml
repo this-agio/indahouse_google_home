@@ -5,118 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza le tapparelle della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza le tapparelle in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza le tapparelle dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "alza le tapparelle del bagno nuovo"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza le tapparelle dei bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza le tapparelle nei bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza le tapparelle nella bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza le tapparelle nelle bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza le tapparelle negli bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle dei bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle nei bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle nella bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle nelle bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle negli bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira su le tapparelle del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle dei bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle nei bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle nella bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle nelle bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle negli bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle dei bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle nei bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle nella bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle nelle bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle negli bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle bagno nuovo"
   actions:
     - type: device.command.OnOff
       on: false
@@ -127,7 +19,7 @@ automations:
       devices:
         - tapparella raise - bagno nuovo
     - type: time.delay
-      for: 60sec
+      for: 25sec
     - type: device.command.OnOff
       on: false
       devices:

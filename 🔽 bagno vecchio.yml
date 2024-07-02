@@ -5,118 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa le tapparelle della bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle in bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle dell'bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "abbassa le tapparelle del bagno vecchio"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa le tapparelle dei bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle nei bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle nella bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle nelle bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle negli bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle della bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle in bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle dell'bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle del bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle dei bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle nei bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle nella bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle nelle bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle negli bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle della bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle in bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle dell'bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
       is: "tira giù le tapparelle del bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle dei bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle nei bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle nella bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle nelle bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle negli bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle della bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle in bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle dell'bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle del bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle dei bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle nei bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle nella bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle nelle bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle negli bagno vecchio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle bagno vecchio"
   actions:
     - type: device.command.OnOff
       on: false
@@ -127,7 +19,7 @@ automations:
       devices:
         - tapparella lower - bagno vecchio
     - type: time.delay
-      for: 60sec
+      for: 15sec
     - type: device.command.OnOff
       on: false
       devices:

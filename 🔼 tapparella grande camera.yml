@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella grande della camera"
+      is: "alza  la tapparella grande della camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella grande in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella grande dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella grande del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella grande della camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella grande in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella grande dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella grande del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella grande camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella grande della camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella grande in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella grande dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella grande del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella grande della camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella grande in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella grande dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella grande del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella grande camera"
+      is: "tira su  la tapparella grande della camera"
   actions:
     - type: device.command.OnOff
       on: false
@@ -67,7 +19,7 @@ automations:
       devices:
         - tapparella grande raise - camera
     - type: time.delay
-      for: 60sec
+      for: 20sec
     - type: device.command.OnOff
       on: false
       devices:

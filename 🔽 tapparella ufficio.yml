@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa la tapparella della ufficio"
+      is: "abbassa  la tapparella dell' ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa la tapparella in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa la tapparella dell'ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa la tapparella del ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella della ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella dell'ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella del ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella della ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella dell'ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella del ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella della ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella dell'ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella del ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella ufficio"
+      is: "tira giù  la tapparella dell' ufficio"
   actions:
     - type: device.command.OnOff
       on: false
@@ -67,7 +19,7 @@ automations:
       devices:
         - tapparella lower - ufficio
     - type: time.delay
-      for: 60sec
+      for: 37sec
     - type: device.command.OnOff
       on: false
       devices:

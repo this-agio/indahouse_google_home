@@ -1,20 +1,18 @@
 metadata:
-  name: Stop cucina, ufficio, cameretta, camera, bagno vecchio, bagno nuovo roller shutters
-  description: Automation to stop roller shutters for rooms cucina, ufficio, cameretta, camera, bagno vecchio, bagno nuovo
+  name: Stop all @22.30
+  description: Posizione neutra switches at 22.30
 automations:
   starters:
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tutte le tapparelle della casa"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tutte le tapparelle"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tutte le tapparelle della casa"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tutte le tapparelle"
+    - type: time.schedule
+      at: 22:30
+      weekdays:
+        - MON
+        - TUE
+        - WED
+        - THU
+        - FRI
+        - SUN
+        - SAT
   actions:
     - type: device.command.OnOff
       on: false

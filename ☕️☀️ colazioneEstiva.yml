@@ -1,38 +1,46 @@
 metadata:
-  name: Raise mattina roller shutters
-  description: Automation to raise roller shutters for group mattina
+  name: Colazione estiva
+  description: Alza le tapparelle per una colazione estiva
 automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza le tapparelle del gruppo mattina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle del gruppo mattina"
+      is: "colazione estiva"
   actions:
     - type: device.command.OnOff
       on: false
       devices:
         - tapparella grande lower - cucina
-        - tapparella piccola lower - cucina
-        - tapparella lower - ufficio
-        - tapparella lower - bagno vecchio
-        - tapparella lower - bagno nuovo
     - type: device.command.OnOff
       on: true
       devices:
         - tapparella grande raise - cucina
+    - type: time.delay
+      for: 14sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande raise - cucina
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella piccola lower - cucina
+        - tapparella lower - ufficio
+        - tapparella lower - bagno nuovo
+        - tapparella lower - bagno vecchio
+    - type: device.command.OnOff
+      on: true
+      devices:
         - tapparella piccola raise - cucina
         - tapparella raise - ufficio
-        - tapparella raise - bagno vecchio
         - tapparella raise - bagno nuovo
+        - tapparella raise - bagno vecchio
     - type: time.delay
       for: 37sec
     - type: device.command.OnOff
       on: false
       devices:
-        - tapparella grande raise - cucina
         - tapparella piccola raise - cucina
         - tapparella raise - ufficio
-        - tapparella raise - bagno vecchio
         - tapparella raise - bagno nuovo
+        - tapparella raise - bagno vecchio

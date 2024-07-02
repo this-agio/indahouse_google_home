@@ -5,118 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa le tapparelle della ufficio"
+      is: "abbassa le tapparelle dell' ufficio"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa le tapparelle in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle dell'ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle del ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle dei ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle nei ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle nella ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle nelle ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa le tapparelle negli ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle della ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle dell'ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle del ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle dei ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle nei ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle nella ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle nelle ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle negli ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparelle ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle della ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle dell'ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle del ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle dei ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle nei ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle nella ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle nelle ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù le tapparelle negli ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle della ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle in ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle dell'ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle del ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle dei ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle nei ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle nella ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle nelle ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle negli ufficio"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparelle ufficio"
+      is: "tira giù le tapparelle dell' ufficio"
   actions:
     - type: device.command.OnOff
       on: false
@@ -127,7 +19,7 @@ automations:
       devices:
         - tapparella lower - ufficio
     - type: time.delay
-      for: 60sec
+      for: 37sec
     - type: device.command.OnOff
       on: false
       devices:

@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella piccola della camera"
+      is: "alza  la tapparella piccola della camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella piccola in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella piccola dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella piccola del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella piccola della camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella piccola in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella piccola dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella piccola del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella piccola camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella piccola della camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella piccola in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella piccola dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella piccola del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella piccola della camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella piccola in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella piccola dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella piccola del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella piccola camera"
+      is: "tira su  la tapparella piccola della camera"
   actions:
     - type: device.command.OnOff
       on: false
@@ -67,7 +19,7 @@ automations:
       devices:
         - tapparella piccola raise - camera
     - type: time.delay
-      for: 60sec
+      for: 13sec
     - type: device.command.OnOff
       on: false
       devices:

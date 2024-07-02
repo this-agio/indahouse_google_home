@@ -5,58 +5,16 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza tapparelle"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle casa"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparelle della casa"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza le tapparelle"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza le tapparelle casa"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza le tapparelle della casa"
+      is: "alza tutte le tapparelle della casa"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "alza tutte le tapparelle"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza tutte le tapparelle casa"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tutte le tapparelle della casa"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle casa"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparelle della casa"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle casa"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su le tapparelle della casa"
+      is: "tira su tutte le tapparelle della casa"
     - type: assistant.event.OkGoogle
       eventData: query
       is: "tira su tutte le tapparelle"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tutte le tapparelle casa"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tutte le tapparelle della casa"
   actions:
     - type: device.command.OnOff
       on: false
@@ -81,7 +39,7 @@ automations:
         - tapparella raise - bagno vecchio
         - tapparella raise - bagno nuovo
     - type: time.delay
-      for: 60sec
+      for: 37sec
     - type: device.command.OnOff
       on: false
       devices:

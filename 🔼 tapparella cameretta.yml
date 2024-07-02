@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella della cameretta"
+      is: "alza  la tapparella della cameretta"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella dell'cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella del cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella della cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella dell'cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella del cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella della cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella dell'cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella del cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella della cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella in cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella dell'cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella del cameretta"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella cameretta"
+      is: "tira su  la tapparella della cameretta"
   actions:
     - type: device.command.OnOff
       on: false
@@ -67,7 +19,7 @@ automations:
       devices:
         - tapparella raise - cameretta
     - type: time.delay
-      for: 60sec
+      for: 20sec
     - type: device.command.OnOff
       on: false
       devices:

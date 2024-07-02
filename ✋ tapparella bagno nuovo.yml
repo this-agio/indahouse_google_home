@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma la tapparella della bagno nuovo"
+      is: "ferma  la tapparella del bagno nuovo"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma la tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma la tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma la tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella bagno nuovo"
+      is: "stoppa  la tapparella del bagno nuovo"
   actions:
     - type: device.command.OnOff
       on: false

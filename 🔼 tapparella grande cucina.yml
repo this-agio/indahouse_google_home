@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella grande della cucina"
+      is: "alza  la tapparella grande della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella grande in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella grande dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella grande del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella grande della cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella grande in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella grande dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella grande del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella grande cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella grande della cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella grande in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella grande dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella grande del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella grande della cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella grande in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella grande dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella grande del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella grande cucina"
+      is: "tira su  la tapparella grande della cucina"
   actions:
     - type: device.command.OnOff
       on: false
@@ -67,7 +19,7 @@ automations:
       devices:
         - tapparella grande raise - cucina
     - type: time.delay
-      for: 60sec
+      for: 37sec
     - type: device.command.OnOff
       on: false
       devices:

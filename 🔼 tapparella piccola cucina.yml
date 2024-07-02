@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella piccola della cucina"
+      is: "alza  la tapparella piccola della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella piccola in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella piccola dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella piccola del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella piccola della cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella piccola in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella piccola dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella piccola del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella piccola cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella piccola della cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella piccola in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella piccola dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella piccola del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella piccola della cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella piccola in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella piccola dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella piccola del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella piccola cucina"
+      is: "tira su  la tapparella piccola della cucina"
   actions:
     - type: device.command.OnOff
       on: false
@@ -67,7 +19,7 @@ automations:
       devices:
         - tapparella piccola raise - cucina
     - type: time.delay
-      for: 60sec
+      for: 25sec
     - type: device.command.OnOff
       on: false
       devices:

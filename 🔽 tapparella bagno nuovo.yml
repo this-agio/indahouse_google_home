@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa la tapparella della bagno nuovo"
+      is: "abbassa  la tapparella del bagno nuovo"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa la tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa la tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa la tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella bagno nuovo"
+      is: "tira giù  la tapparella del bagno nuovo"
   actions:
     - type: device.command.OnOff
       on: false
@@ -67,7 +19,7 @@ automations:
       devices:
         - tapparella lower - bagno nuovo
     - type: time.delay
-      for: 60sec
+      for: 25sec
     - type: device.command.OnOff
       on: false
       devices:

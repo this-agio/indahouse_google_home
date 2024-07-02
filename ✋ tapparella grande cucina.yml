@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma la tapparella grande della cucina"
+      is: "ferma  la tapparella grande della cucina"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "ferma la tapparella grande in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma la tapparella grande dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma la tapparella grande del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella grande della cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella grande in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella grande dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella grande del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "ferma tapparella grande cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella grande della cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella grande in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella grande dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa la tapparella grande del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella grande della cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella grande in cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella grande dell'cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella grande del cucina"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "stoppa tapparella grande cucina"
+      is: "stoppa  la tapparella grande della cucina"
   actions:
     - type: device.command.OnOff
       on: false

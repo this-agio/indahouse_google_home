@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella della bagno nuovo"
+      is: "alza  la tapparella del bagno nuovo"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "alza la tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza la tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "alza tapparella bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su la tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella della bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella in bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella dell'bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella del bagno nuovo"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira su tapparella bagno nuovo"
+      is: "tira su  la tapparella del bagno nuovo"
   actions:
     - type: device.command.OnOff
       on: false
@@ -67,7 +19,7 @@ automations:
       devices:
         - tapparella raise - bagno nuovo
     - type: time.delay
-      for: 60sec
+      for: 25sec
     - type: device.command.OnOff
       on: false
       devices:

@@ -5,58 +5,10 @@ automations:
   starters:
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa la tapparella piccola della camera"
+      is: "abbassa  la tapparella piccola della camera"
     - type: assistant.event.OkGoogle
       eventData: query
-      is: "abbassa la tapparella piccola in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa la tapparella piccola dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa la tapparella piccola del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella piccola della camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella piccola in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella piccola dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella piccola del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "abbassa tapparella piccola camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella piccola della camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella piccola in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella piccola dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù la tapparella piccola del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella piccola della camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella piccola in camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella piccola dell'camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella piccola del camera"
-    - type: assistant.event.OkGoogle
-      eventData: query
-      is: "tira giù tapparella piccola camera"
+      is: "tira giù  la tapparella piccola della camera"
   actions:
     - type: device.command.OnOff
       on: false
@@ -67,7 +19,7 @@ automations:
       devices:
         - tapparella piccola lower - camera
     - type: time.delay
-      for: 60sec
+      for: 13sec
     - type: device.command.OnOff
       on: false
       devices:
