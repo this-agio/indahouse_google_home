@@ -1,0 +1,44 @@
+metadata:
+  name: Abbassa un po'
+  description: Abbassa le tapparelle un po'
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa un po' le tapparelle"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande raise - cucina
+        - tapparella piccola raise - cucina
+        - tapparella raise - ufficio
+        - tapparella raise - cameretta
+        - tapparella grande raise - camera
+        - tapparella piccola raise - camera
+        - tapparella raise - bagno vecchio
+        - tapparella raise - bagno nuovo
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella grande lower - cucina
+        - tapparella piccola lower - cucina
+        - tapparella lower - ufficio
+        - tapparella lower - cameretta
+        - tapparella grande lower - camera
+        - tapparella piccola lower - camera
+        - tapparella lower - bagno vecchio
+        - tapparella lower - bagno nuovo
+    - type: time.delay
+      for: 7sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande lower - cucina
+        - tapparella piccola lower - cucina
+        - tapparella lower - ufficio
+        - tapparella lower - cameretta
+        - tapparella grande lower - camera
+        - tapparella piccola lower - camera
+        - tapparella lower - bagno vecchio
+        - tapparella lower - bagno nuovo
