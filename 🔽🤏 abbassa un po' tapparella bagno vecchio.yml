@@ -1,0 +1,23 @@
+metadata:
+  name: Abbassa un po' tapparella bagno vecchio
+  description: Abbassa un po' tapparella bagno vecchio
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa un po' la tapparella del bagno vecchio"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - bagno vecchio
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella lower - bagno vecchio
+    - type: time.delay
+      for: 3sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - bagno vecchio

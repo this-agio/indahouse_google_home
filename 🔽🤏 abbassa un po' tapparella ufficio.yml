@@ -1,0 +1,23 @@
+metadata:
+  name: Abbassa un po' tapparella ufficio
+  description: Abbassa un po' tapparella ufficio
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa un po' la tapparella dell' ufficio"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - ufficio
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella lower - ufficio
+    - type: time.delay
+      for: 7sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - ufficio

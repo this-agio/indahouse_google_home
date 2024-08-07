@@ -1,0 +1,23 @@
+metadata:
+  name: Alza un po' tapparella piccola cucina
+  description: Alza un po' tapparella piccola cucina
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza un po' la tapparella piccola della cucina"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella piccola raise - cucina
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella piccola lower - cucina
+    - type: time.delay
+      for: 5sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella piccola lower - cucina

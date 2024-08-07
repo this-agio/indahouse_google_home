@@ -1,0 +1,23 @@
+metadata:
+  name: Alza un po' tapparella cameretta
+  description: Alza un po' tapparella cameretta
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza un po' la tapparella della cameretta"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - cameretta
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella lower - cameretta
+    - type: time.delay
+      for: 4sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - cameretta

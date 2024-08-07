@@ -1,0 +1,42 @@
+metadata:
+  name: Sera
+  description: Abbassa le tapparelle per la sera
+automations:
+  starters:
+    - type: time.schedule
+      at: 20:30
+      weekdays:
+        - MON
+        - TUE
+        - WED
+        - THU
+        - FRI
+        - SUN
+        - SAT
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande raise - cucina
+        - tapparella piccola raise - cucina
+        - tapparella raise - ufficio
+        - tapparella raise - bagno nuovo
+        - tapparella raise - bagno vecchio
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella grande lower - cucina
+        - tapparella piccola lower - cucina
+        - tapparella lower - ufficio
+        - tapparella lower - bagno nuovo
+        - tapparella lower - bagno vecchio
+    - type: time.delay
+      for: 37sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande lower - cucina
+        - tapparella piccola lower - cucina
+        - tapparella lower - ufficio
+        - tapparella lower - bagno nuovo
+        - tapparella lower - bagno vecchio

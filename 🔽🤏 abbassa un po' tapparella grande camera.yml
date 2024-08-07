@@ -1,0 +1,23 @@
+metadata:
+  name: Abbassa un po' tapparella grande camera
+  description: Abbassa un po' tapparella grande camera
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa un po' la tapparella grande della camera"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande raise - camera
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella grande lower - camera
+    - type: time.delay
+      for: 4sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella grande lower - camera

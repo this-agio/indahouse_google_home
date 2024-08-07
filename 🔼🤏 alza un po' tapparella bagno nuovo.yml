@@ -1,0 +1,23 @@
+metadata:
+  name: Alza un po' tapparella bagno nuovo
+  description: Alza un po' tapparella bagno nuovo
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza un po' la tapparella del bagno nuovo"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - bagno nuovo
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella lower - bagno nuovo
+    - type: time.delay
+      for: 5sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - bagno nuovo
