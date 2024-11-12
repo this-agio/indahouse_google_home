@@ -25,6 +25,7 @@ automations:
         - tapparella piccola raise - camera
         - tapparella raise - bagno vecchio
         - tapparella raise - bagno nuovo
+        - tapparella raise - lavanderia
         - tapparella grande lower - cucina
         - tapparella piccola lower - cucina
         - tapparella lower - ufficio
@@ -33,3 +34,4 @@ automations:
         - tapparella piccola lower - camera
         - tapparella lower - bagno vecchio
         - tapparella lower - bagno nuovo
+        - tapparella lower - lavanderia

@@ -1,6 +1,6 @@
 metadata:
-  name: Stop cucina, ufficio, cameretta, camera, bagno vecchio, bagno nuovo roller shutters
-  description: Automation to stop roller shutters for rooms cucina, ufficio, cameretta, camera, bagno vecchio, bagno nuovo
+  name: Stop cucina, ufficio, cameretta, camera, bagno vecchio, bagno nuovo, lavanderia roller shutters
+  description: Automation to stop roller shutters for rooms cucina, ufficio, cameretta, camera, bagno vecchio, bagno nuovo, lavanderia
 automations:
   starters:
     - type: assistant.event.OkGoogle
@@ -27,6 +27,7 @@ automations:
         - tapparella piccola raise - camera
         - tapparella raise - bagno vecchio
         - tapparella raise - bagno nuovo
+        - tapparella raise - lavanderia
         - tapparella grande lower - cucina
         - tapparella piccola lower - cucina
         - tapparella lower - ufficio
@@ -35,3 +36,4 @@ automations:
         - tapparella piccola lower - camera
         - tapparella lower - bagno vecchio
         - tapparella lower - bagno nuovo
+        - tapparella lower - lavanderia

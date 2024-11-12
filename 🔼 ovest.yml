@@ -16,12 +16,14 @@ automations:
         - tapparella lower - ufficio
         - tapparella lower - bagno vecchio
         - tapparella lower - bagno nuovo
+        - tapparella lower - lavanderia
     - type: device.command.OnOff
       on: true
       devices:
         - tapparella raise - ufficio
         - tapparella raise - bagno vecchio
         - tapparella raise - bagno nuovo
+        - tapparella raise - lavanderia
     - type: time.delay
       for: 37sec
     - type: device.command.OnOff
@@ -30,3 +32,4 @@ automations:
         - tapparella raise - ufficio
         - tapparella raise - bagno vecchio
         - tapparella raise - bagno nuovo
+        - tapparella raise - lavanderia

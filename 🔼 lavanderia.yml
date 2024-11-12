@@ -1,0 +1,26 @@
+metadata:
+  name: Raise lavanderia roller shutters
+  description: Automation to raise roller shutters for rooms lavanderia
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "alza le tapparelle della lavanderia"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira su le tapparelle della lavanderia"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - lavanderia
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella raise - lavanderia
+    - type: time.delay
+      for: 20sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - lavanderia

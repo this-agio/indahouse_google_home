@@ -1,0 +1,17 @@
+metadata:
+  name: Stop lavanderia roller shutters
+  description: Automation to stop roller shutters for rooms lavanderia
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "ferma le tapparelle della lavanderia"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "stoppa le tapparelle della lavanderia"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - lavanderia
+        - tapparella lower - lavanderia

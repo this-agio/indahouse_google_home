@@ -1,0 +1,26 @@
+metadata:
+  name: Lower tapparella lavanderia roller shutter
+  description: Automation to lower tapparella roller shutter for room lavanderia
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa  la tapparella della lavanderia"
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "tira giù  la tapparella della lavanderia"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - lavanderia
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella lower - lavanderia
+    - type: time.delay
+      for: 20sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - lavanderia

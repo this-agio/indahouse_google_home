@@ -1,0 +1,23 @@
+metadata:
+  name: Abbassa un po' tapparella lavanderia
+  description: Abbassa un po' tapparella lavanderia
+automations:
+  starters:
+    - type: assistant.event.OkGoogle
+      eventData: query
+      is: "abbassa un po' la tapparella della lavanderia"
+  actions:
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella raise - lavanderia
+    - type: device.command.OnOff
+      on: true
+      devices:
+        - tapparella lower - lavanderia
+    - type: time.delay
+      for: 4sec
+    - type: device.command.OnOff
+      on: false
+      devices:
+        - tapparella lower - lavanderia
